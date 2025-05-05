@@ -192,7 +192,7 @@ void benchmark_task2(int* n_values, int num_n, int search_ops) {
 int main() {
     srand(time(NULL));
     printf("\nTask 2 Benchmarks:\n");
-    int task2_n[] = {500, 1000, 2000};
+    int task2_n[] = {5000000, 10000000, 20000000};
     benchmark_task2(task2_n, 3, 1000000);
     return 0;
 }
